@@ -1,4 +1,5 @@
 import React from "react";
+import "./style.css";
 
 // Exporting the Container, Row, and Col components from this file
 
@@ -17,12 +18,17 @@ export function Row({ fluid, children }) {
 export function Col({ size, children }) {
   return (
     <div
-      className={size
+      /* className={size
         .split(" ")
         .map(size => "col-" + size)
-        .join(" ")}
+        .join(" ")} */
+        className={"col-" + size}
     >
       {children}
     </div>
   );
+}
+
+export function BoarderBox({ children }) {
+  return <div className={"boarderBox"}>{children}</div>;
 }
