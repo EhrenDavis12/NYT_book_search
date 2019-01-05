@@ -1,0 +1,19 @@
+.delete-btn {
+  float: right;
+  color: #e74944;
+}
+
+.view-btn {
+  float: right;
+  color: green;
+}
+
+.allButtons{
+  background-color: lightgray;
+  border-color: gray;
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 2px;
+  margin: 10px;
+  padding: 5px;
+}
